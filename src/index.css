@@ -1,0 +1,12 @@
+body {
+  margin: 0;
+  font-family: degular, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: degular, sans-serif;
+  font-style: normal;
+            font-weight: 200;
+}

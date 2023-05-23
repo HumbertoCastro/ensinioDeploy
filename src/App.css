@@ -1,0 +1,338 @@
+.header {
+  background: rgb(95,65,217);
+  background: linear-gradient(135deg, rgba(95,65,217,0.4) 36%, rgba(65,181,217,0.4) 100%);
+  position: sticky;
+  align-items: center;
+  height: 10%;
+}
+
+hr {
+  width: 80%;
+  opacity: 30%;
+}
+
+.flex-row {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.space-btw {
+  justify-content: space-between;
+}
+
+.space-arround {
+  justify-content: space-around;
+}
+
+.main-interface {
+  background: rgb(95,65,217);
+  background: linear-gradient(135deg, rgba(95,65,217,1) 36%, rgba(65,181,217,1) 100%);
+  height: 100vh;
+}
+
+.text-section {
+  height: 90%;
+}
+
+.side-text {
+  width: 30vw;
+  margin-left: 8vw;
+  margin-top: 2vhvh;
+}
+
+.large-text {
+  font-size: 3rem;
+}
+
+.small-text {
+  font-size: 1rem;
+}
+
+.medium-text {
+  font-size: 1.5rem;
+}
+
+.bold-text {
+  font-weight: bold;
+}
+
+.grey-text {
+  
+}
+
+.white-text {
+  color: white;
+}
+
+.black-text {
+  color: black;
+}
+
+.purple-text {
+  color:  rgb(95,65,217);
+}
+
+a {
+  margin: 0 20px;
+  text-decoration: none;
+  align-self: center;
+}
+
+.simple {
+}
+
+.sideImage {
+  height: 70vh;
+  align-self: flex-end;
+  margin-right: 10vw;
+}
+
+.full-circle {
+  display: flex;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #00e1e7;
+  border-radius: 25px;
+  height: 5vh;
+  width: 50%;
+}
+
+/* DropDown css */
+.dropbtn {
+  background: none;
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  border-radius: 20px;
+  padding: 20px;
+  min-width: 20vw;
+  max-width: 20vw;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content h1 {
+  color:  rgb(95,65,217);
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {
+  color:  rgb(95,65,217);
+}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.dropdown:hover .dropbtn {
+  background: none;
+}
+
+.icon-dropdown {
+  width: 40px;
+  height: 40px;
+  margin-right: 20px;
+}
+
+.lenguage-content {
+  min-width: 8vw;
+}
+
+.country-icon {
+  margin-right: 20px;
+}
+
+.botton-section {
+  padding: 10vh;
+}
+
+.line {
+  width: 2vw;
+  height: 1px;
+  margin-right: 10px;
+  background-color:rgb(95,65,217);
+}
+
+.move-down, .scale-hover {
+  transition: transform 250ms;
+}
+
+.move-down:hover {
+  transform: translateY(+10px);
+}
+
+.scale-hover:hover {
+  transform: scale(1.1);
+}
+
+.lenguage-btn {
+  background-color: #f9f9f9;
+  border: none;
+}
+
+.selected {
+  border: 2px solid rgb(95,65,217);
+  border-radius: 20px;
+}
+
+
+/*  CSS MEDIA QUERY FOR RESPOSIVENES */
+
+/* Extra small devices (phones, 600px and down) */
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media (min-width: 10px) and (max-width: 500px) {
+  .sideImage {
+    display: none;
+  }
+
+  .side-text {
+    width: 100vw;
+    text-align: center;
+    margin: 0;
+  }
+
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media (min-width: 500px) and (max-width: 900px) {
+
+  .svg-hover {
+    display: none;
+  }
+
+  .links-container {
+    width: 100vw;
+  }
+  
+  .link {
+    width: 15vw;
+    font-size: 0.8rem;
+    margin: 10px;
+    text-align: center;
+  }
+
+  .header {
+    flex-direction: column;
+    height: 20vh;
+  }
+
+  body {
+    margin: 0;
+    width: 100vw;
+  }
+
+  .sideImage {
+    display: none;
+  }
+
+  .side-text {
+    width: 100vw;
+    text-align: center;
+    margin: 0;
+  }
+
+  .side-text div {
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 20vh;
+  }
+
+  .main-interface {
+    width: 100vw;
+  }
+
+  main {
+    width: 100vw;
+    margin: 0;
+  }
+
+  .botton-section {
+    padding: 0;
+    margin: 10px;
+  }
+
+  .botton-section div {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .dropdown-content {
+    max-width: 90vw;
+    width: 90vw;
+    margin: auto;
+  }
+
+  .dropdown-content div {
+    flex-direction: column;
+    margin-top: 20px;
+    align-items: center;
+    text-align: center;
+    justify-content: space-evenly;
+  }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media (min-width: 900px) and (max-width: 1300px) {
+  .sideImage {
+    display: block;
+    align-self: flex-end;
+  }
+
+  .side-text {
+    width: 40vw;
+    text-align: center;
+    margin: 0;
+    align-items: center;
+  }
+
+  .side-text div {
+    flex-direction: column;
+    align-self: center;
+    margin-top: 10px;
+  }
+
+  .text-section {
+    min-width: 100vw;
+    flex-direction: row;
+  }
+
+  .main-interface {
+    min-height: 100vh;
+  }
+
+
+}
