@@ -11,7 +11,7 @@ function SubSection() {
   const [content, setContent] = useState(mock);
 
   const requestContent = () => {
-    try {
+    /* try {
       fetch("http://localhost:3000/posts/")
         .then(response => response.json()).then((res) => {
           console.log(res);
@@ -19,7 +19,7 @@ function SubSection() {
         }); 
     } catch (err) {
       console.log("err");
-    }
+    } */
   }
 
   useEffect(() => {
