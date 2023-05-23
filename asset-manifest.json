@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/ensinio/static/css/main.831810a9.css",
+    "main.js": "/ensinio/static/js/main.9dacf72a.js",
+    "static/js/787.27f8c723.chunk.js": "/ensinio/static/js/787.27f8c723.chunk.js",
+    "static/media/ISTOCKPHOTO_613523662_large 2.png": "/ensinio/static/media/ISTOCKPHOTO_613523662_large 2.c01e2faafc0fa2f85708.png",
+    "index.html": "/ensinio/index.html",
+    "main.831810a9.css.map": "/ensinio/static/css/main.831810a9.css.map",
+    "main.9dacf72a.js.map": "/ensinio/static/js/main.9dacf72a.js.map",
+    "787.27f8c723.chunk.js.map": "/ensinio/static/js/787.27f8c723.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.831810a9.css",
+    "static/js/main.9dacf72a.js"
+  ]
+}
