@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/ensinioDeploy/static/css/main.831810a9.css",
-    "main.js": "/ensinioDeploy/static/js/main.78536253.js",
+    "main.css": "/ensinioDeploy/static/css/main.862ef387.css",
+    "main.js": "/ensinioDeploy/static/js/main.9bb86f9a.js",
     "static/js/787.27f8c723.chunk.js": "/ensinioDeploy/static/js/787.27f8c723.chunk.js",
     "static/media/ISTOCKPHOTO_613523662_large 2.png": "/ensinioDeploy/static/media/ISTOCKPHOTO_613523662_large 2.c01e2faafc0fa2f85708.png",
     "index.html": "/ensinioDeploy/index.html",
-    "main.831810a9.css.map": "/ensinioDeploy/static/css/main.831810a9.css.map",
-    "main.78536253.js.map": "/ensinioDeploy/static/js/main.78536253.js.map",
+    "main.862ef387.css.map": "/ensinioDeploy/static/css/main.862ef387.css.map",
+    "main.9bb86f9a.js.map": "/ensinioDeploy/static/js/main.9bb86f9a.js.map",
     "787.27f8c723.chunk.js.map": "/ensinioDeploy/static/js/787.27f8c723.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.831810a9.css",
-    "static/js/main.78536253.js"
+    "static/css/main.862ef387.css",
+    "static/js/main.9bb86f9a.js"
   ]
 }
