@@ -192,7 +192,13 @@ a {
   transform: scale(1.1);
 }
 
-.lenguage-btn {
+.circle {
+  border: 1px solid white;
+  border-radius: 20px;
+  padding: 10px;
+}
+
+.btn {
   background-color: #f9f9f9;
   border: none;
 }

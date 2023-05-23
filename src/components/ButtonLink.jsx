@@ -5,7 +5,7 @@ function ButtonLink({ name, classType, icon, testId }) {
   return (
     <a
       href='https://ensinio.com/'
-      className={ `${classType} link white-text small-text` }
+      className={ `${classType} link white-text small-text flex-row space-btw` }
       data-testid={ testId ? testId : "" }
     >
       {

@@ -11,34 +11,34 @@ function HoverButton({ name }) {
       </svg>
       <div className="dropdown-content flex-colunm space-arround">
         <h1 className='medium-text'>SOLUÇÕES PRINCIPAIS</h1>
-        <div className="flex-row">
+        <button className="btn flex-row move-down" href="ensinio.com">
           <img className="icon-dropdown" src={ infoprodutor } alt='infoprodutor' />
-          <div className='flex-colunm'>
+          <div className='flex-colunm '>
             <p className="bold-text">Crie uma Escola Online</p>
             <p>Lorem ipsum dolor sit amet</p>
           </div>
-        </div>
-        <div className="flex-row">
+        </button>
+        <button className="btn flex-row move-down" href="ensinio.com" >
           <img className="icon-dropdown" src={ ensinioCorporate } alt='infoprodutor' />
           <div className='flex-colunm'>
             <p className="bold-text">Comunidade e rede social</p>
             <p>Lorem ipsum dolor sit amet</p>
           </div>
-        </div>
-        <div className="flex-row">
+        </button>
+        <button className="btn flex-row move-down" href="ensinio.com" >
           <img className="icon-dropdown" src={ escola } alt='infoprodutor' />
           <div className='flex-colunm'>
             <p className="bold-text">Gamificação</p>
             <p>Lorem ipsum dolor sit amet</p>
           </div>
-        </div>
-        <div className="flex-row">
+        </button>
+        <button className="btn flex-row move-down" href="ensinio.com" >
           <img className="icon-dropdown" src={ infoprodutor } alt='infoprodutor' />
           <div className='flex-colunm'>
             <p className="bold-text">Aplicativo mobile</p>
             <p>Lorem ipsum dolor sit amet</p>
           </div>
-        </div>
+        </button>
       </div>
     </div>
   );

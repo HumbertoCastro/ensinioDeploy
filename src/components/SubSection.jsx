@@ -11,7 +11,7 @@ function SubSection() {
   const [content, setContent] = useState(mock);
 
   const requestContent = () => {
-    /* try {
+    try {
       fetch("http://localhost:3000/posts/")
         .then(response => response.json()).then((res) => {
           console.log(res);
@@ -19,7 +19,7 @@ function SubSection() {
         }); 
     } catch (err) {
       console.log("err");
-    } */
+    }
   }
 
   useEffect(() => {
@@ -35,6 +35,7 @@ function SubSection() {
         </div>
         <p>{ t("textolateral") }</p>
       </div>
+      <h1 className='black-text bold-text'>{ t("secundarioPrincipal") }</h1>
       <div className="flex-row space-btw api-items">
       {
         content.map((item) => {

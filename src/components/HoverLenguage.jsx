@@ -27,7 +27,7 @@ function HoverLenguage({ name }) {
       <div className="dropdown-content lenguage-content">
         <button
           className={
-            selectedLenguage === "pt" ? "selected lenguage-btn" : "lenguage-btn"
+            selectedLenguage === "pt" ? "selected btn" : "btn"
           }
           data-testid="lenguage-btn"
           onClick={ () => {
@@ -38,7 +38,7 @@ function HoverLenguage({ name }) {
         </button>
         <button
           className={
-            selectedLenguage === "en" ? "selected lenguage-btn" : "lenguage-btn"
+            selectedLenguage === "en" ? "selected btn" : "btn"
           }
           data-testid="lenguage-btn"
           onClick={ () => {
@@ -49,7 +49,7 @@ function HoverLenguage({ name }) {
         </button>
         <button
           className={
-            selectedLenguage === "es" ? "selected lenguage-btn" : "lenguage-btn"
+            selectedLenguage === "es" ? "selected btn" : "btn"
           }
           data-testid="lenguage-btn"
           onClick={ () => {
